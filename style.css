@@ -1,0 +1,101 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    width: auto;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 4em;
+    color: #fff;
+    user-select: none;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation a {
+    width: 100%;
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 300px;
+}
+
+.menu-box {
+    margin: 100px auto 0 auto;
+    align-content: space-between;
+    width: fit-content;
+    padding: 20px;
+}
+
+.drink-list {
+    text-align: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.3);
+}
+.drink-list dt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-display: swap;
+    color: wheat;
+    text-shadow: 
+    -1px -1px 0 brown,
+    1px -1px 0 brown,
+    -1px 1px 0 brown,
+    1px 1px 0 brown;
+}
+
+.drink-list dd {
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-display: swap;
+    color: #fff;
+}
+
+.food-list {
+    text-align: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.3);
+}
+
+.food-list dt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: wheat;
+    text-shadow: 
+    -1px -1px 0 brown,
+    1px -1px 0 brown,
+    -1px 1px 0 brown,
+    1px 1px 0 brown;
+}
+
+.food-list dd {
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
